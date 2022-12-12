@@ -10,7 +10,7 @@ mvn clean package
 ```
 ## Hadoop 部署任务
 ```bash
-hadoop jar target/hadoop_knn_.jar com.knn.Main
+hadoop jar target/interval_index_maven-1.0-SNAPSHOT.jar com.knn.Main
 ```
 
 ---
