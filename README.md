@@ -6,11 +6,13 @@
 - Searcher: 进行KNN查找
 ## 构建 Maven 项目并打包 jar
 ```bash
-mvn clean package
+mvn clean 
+mvn assembly:assembly 
+# 如果不行可以试试 mvn package
 ```
 ## Hadoop 部署任务
 ```bash
-hadoop jar target/interval_index_maven-1.0-SNAPSHOT.jar com.knn.Main
+hadoop jar target/hadoop_knn-1.0-SNAPSHOT-jar-with-dependencies.jar com.knn.Main
 ```
 
 ---
