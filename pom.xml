@@ -133,13 +133,12 @@
         <!--(start) for package jar with dependencies -->
         <plugin>
             <artifactId>maven-assembly-plugin</artifactId>
-            <version>3.0.0</version>
             <configuration>
                 <archive>
                     <!--指定main方法所在的类-->
                     <manifest>
-                        <mainClass>com.ade.Main</mainClass>
-                  </manifest>
+                        <mainClass>com.knn.Main</mainClass>
+                    </manifest>
               </archive>
               <!--不能改jar-with-dependencies-->
               <descriptorRefs>
